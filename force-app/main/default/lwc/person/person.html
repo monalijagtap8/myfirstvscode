@@ -1,0 +1,9 @@
+<template>
+    <lightning-card title="User Details">
+        <div>{user.firstName} {user.lastName}
+            <br/> Location:- {location}
+        </div>
+
+        <lightning-button label="Update user" onclick={updateUser}></lightning-button>
+    </lightning-card>
+</template>
